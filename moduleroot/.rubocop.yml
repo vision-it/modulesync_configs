@@ -5,6 +5,7 @@ AllCops:
     - ./**/*.rb
   Exclude:
     - files/**/*
+    - lib/**/*
     - vendor/**/*
     - .vendor/**/*
     - pkg/**/*
@@ -53,4 +54,7 @@ RSpec/NestedGroups:
   Enabled: False
 
 Security/YAMLLoad:
-  Enabled: false
+  Enabled: False
+
+RSpec/MultipleDescribes:
+  Enabled: False
