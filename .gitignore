@@ -1,0 +1,23 @@
+# VIM files
+*.swp
+*.swo
+
+# EMACS files
+\#*
+.\#*
+
+# IntelliJ IDEA
+.idea
+*.iml
+
+# Mac files
+.DS_Store
+
+/modules/
+/modulesync.yml
+/.bundle/
+/Gemfile.lock
+/Gemfile.local
+/.bundle/
+/.idea/
+/.metadata

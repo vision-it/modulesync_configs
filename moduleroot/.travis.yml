@@ -1,0 +1,40 @@
+sudo: false
+language: ruby
+cache: bundler
+script:
+  - 'bundle exec rake $CHECK'
+matrix:
+  fast_finish: true
+  include:
+  - rvm: 2.1.9
+    env: PUPPET_VERSION="4.6.1" STRICT_VARIABLES="yes" CHECK="rubocop"
+    bundler_args: --without testing acceptance
+  - rvm: 2.1.9
+    env: PUPPET_VERSION="4.6.1" STRICT_VARIABLES="yes" CHECK="lint"
+    bundler_args: --without rubocop acceptance
+  - rvm: 2.1.9
+    env: PUPPET_VERSION="4.6.1" STRICT_VARIABLES="yes" CHECK="validate"
+    bundler_args: --without rubocop acceptance
+  - rvm: 2.1.9
+    env: PUPPET_VERSION="4.6.1" STRICT_VARIABLES="yes" CHECK="spec"
+    bundler_args: --without rubocop acceptance
+  - rvm: 2.1.9
+    env: PUPPET_VERSION="4.6.1" STRICT_VARIABLES="yes" CHECK="beaker"
+    bundler_args: --without rubocop
+    services: docker
+    sudo: required
+<% if @configs['extras'] -%>
+<%   @configs['extras'].each do |extra| -%>
+  - rvm: <%= extra['rvm'] %>
+<%     extra.keys.sort.each do |k| -%>
+<%       next if k == 'rvm' -%>
+    <%= k %>: <%= extra[k] %>
+<%     end -%>
+<%   end -%>
+<% end -%>
+notifications:
+  email: false
+<% if @configs['slack'] -%>
+  slack:
+    secure: <%= @configs['slack']['secure'] %>
+<% end -%>

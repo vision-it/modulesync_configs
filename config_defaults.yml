@@ -1,0 +1,3 @@
+:global:
+  supported_oss:
+    vision_mediawiki: [linux]
