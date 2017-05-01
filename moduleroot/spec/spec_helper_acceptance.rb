@@ -33,9 +33,17 @@ RSpec.configure do |c|
                           target: '/etc/puppetlabs/puppet')
 
       puts 'Install fixtures'
-      modules.each do |_name, mod_url|
-        mod_name = mod_url.split('/').last
-        on host, puppet('module', 'install', mod_name), acceptable_exit_codes: [0, 1]
+      modules.each do |mod_name, mod_info|
+        url = mod_info['repo']
+        ref = mod_info['ref']
+        dir = '/etc/puppetlabs/code/environments/production/modules/' + mod_name
+
+        puts format(' - Fetch %s with %s from %s', mod_name, ref, url)
+        git_clone = format('git clone %s %s', url, dir)
+        git_checkout = format('cd %s && git checkout %s', dir, ref)
+
+        on host, git_clone
+        on host, git_checkout
       end
     end
   end
