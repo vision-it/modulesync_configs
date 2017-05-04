@@ -1,0 +1,5 @@
+---
+git_base: 'git@github.com:'
+namespace: vision-it
+branch: modulesync
+message: "Update from modulesync_config"
