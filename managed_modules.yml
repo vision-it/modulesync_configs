@@ -1,5 +1,4 @@
 ---
-- vision-activemq.git
 - vision-apache
 - vision-apt
 - vision-aptcacher
@@ -16,7 +15,6 @@
 - vision-firewall
 - vision-freeipa
 - vision-gitlab
-- vision-gluster
 - vision-gogs
 - vision-groups
 - vision-hubot
@@ -24,7 +22,6 @@
 - vision-intranet
 - vision-jenkins
 - vision-kerberos
-- vision-kubernetes
 - vision-ldap
 - vision-limesurvey
 - vision-logcheck
@@ -49,7 +46,6 @@
 - vision-rsync
 - vision-rsyslog
 - vision-shells
-- vision-skeleton
 - vision-smart
 - vision-ssh
 - vision-sudo
