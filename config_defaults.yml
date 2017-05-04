@@ -1,3 +1,42 @@
 :global:
   supported_oss:
     vision_mediawiki: [linux]
+
+spec/spec_helper_acceptance.rb:
+  delete: false
+
+spec/spec_helper.rb:
+  delete: false
+
+spec/hiera/hiera.yaml.beaker:
+  delete: false
+
+spec/hiera/hiera.yaml:
+  delete: false
+
+spec/acceptance/nodesets/default.yml:
+  delete: false
+
+CONTRIBUTING.md:
+  delete: false
+
+Gemfile:
+  delete: false
+
+.gitignore:
+  delete: false
+
+hiera.yaml:
+  delete: false
+
+LICENSE:
+  delete: false
+
+Rakefile:
+  delete: false
+
+.rubocop.yml:
+  delete: false
+
+.travis.yml:
+  delete: false
