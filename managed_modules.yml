@@ -46,6 +46,7 @@
 - vision-rsync
 - vision-rsyslog
 - vision-shells
+- vision-skeleton
 - vision-smart
 - vision-ssh
 - vision-sudo
