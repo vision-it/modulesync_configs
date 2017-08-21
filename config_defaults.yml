@@ -17,6 +17,9 @@ spec/hiera/hiera.yaml:
 spec/acceptance/nodesets/default.yml:
   delete: false
 
+spec/acceptance/nodesets/debian9.yml:
+  delete: false
+
 CONTRIBUTING.md:
   delete: false
 
