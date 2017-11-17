@@ -4,6 +4,7 @@ AllCops:
   Include:
     - ./**/*.rb
   Exclude:
+    - Gemfile
     - files/**/*
     - lib/**/*
     - vendor/**/*
