@@ -38,6 +38,7 @@
 - vision-pki
 - vision-puppet
 - vision-redalert
+- vision-registry
 - vision-rsnapshot
 - vision-rsync
 - vision-rsyslog
@@ -46,4 +47,5 @@
 - vision-smart
 - vision-ssh
 - vision-sudo
+- vision-webshop
 - vision-xen
