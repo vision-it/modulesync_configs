@@ -4,7 +4,6 @@
 - vision-aptcacher
 - vision-aptly
 - vision-bareos
-- vision-ca
 - vision-cups
 - vision-default
 - vision-deployment
@@ -37,6 +36,7 @@
 - vision-piwik
 - vision-pki
 - vision-puppet
+- vision-puppetdb
 - vision-redalert
 - vision-registry
 - vision-rsnapshot
