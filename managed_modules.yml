@@ -6,7 +6,6 @@
 - vision-bareos
 - vision-cups
 - vision-default
-- vision-deployment
 - vision-docker
 - vision-editors
 - vision-exim
@@ -23,7 +22,6 @@
 - vision-ldap
 - vision-limesurvey
 - vision-logcheck
-- vision-mbl
 - vision-monitoring
 - vision-mysql
 - vision-nameservice
