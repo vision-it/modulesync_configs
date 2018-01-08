@@ -18,8 +18,7 @@
 - vision-icinga2
 - vision-intranet
 - vision-jenkins
-- vision-kerberos
-- vision-ldap
+- vision-idm
 - vision-limesurvey
 - vision-logcheck
 - vision-mbl
