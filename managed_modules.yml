@@ -1,7 +1,7 @@
 ---
 - vision-apache
 - vision-apt
-- vision-aptcacher
+- vision-aptutil
 - vision-aptly
 - vision-bareos
 - vision-cups
