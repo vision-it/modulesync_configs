@@ -14,7 +14,6 @@
 - vision-gitlab
 - vision-gogs
 - vision-groups
-- vision-hubot
 - vision-icinga2
 - vision-intranet
 - vision-jenkins
@@ -24,7 +23,6 @@
 - vision-mbl
 - vision-monitoring
 - vision-mysql
-- vision-nameservice
 - vision-nextcloud
 - vision-nfs
 - vision-nodejs
@@ -40,6 +38,7 @@
 - vision-rsnapshot
 - vision-rsync
 - vision-rsyslog
+- vision-shipit
 - vision-shells
 - vision-skeleton
 - vision-smart
