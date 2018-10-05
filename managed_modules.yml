@@ -1,10 +1,8 @@
 ---
-- vision-apache
 - vision-apt
 - vision-aptutil
 - vision-aptly
 - vision-bareos
-- vision-cups
 - vision-default
 - vision-docker
 - vision-editors
@@ -26,6 +24,7 @@
 - vision-nextcloud
 - vision-nfs
 - vision-nodejs
+- vision-nginx
 - vision-ntp
 - vision-packer
 - vision-phpmyadmin
