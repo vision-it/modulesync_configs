@@ -27,6 +27,7 @@
 - vision-nginx
 - vision-ntp
 - vision-packer
+- vision-php
 - vision-phpmyadmin
 - vision-piwik
 - vision-pki
