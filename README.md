@@ -8,7 +8,7 @@ Module sync configurations for Vision-IT Modules
 git clone https://github.com/vision-it/modulesync_configs.git
 cd modulesync_config
 bundle install --path=.bundle
-bundle exec msync update --help
+bundle exec msync help update
 ```
 
 ## Examples
