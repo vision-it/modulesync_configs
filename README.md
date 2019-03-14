@@ -5,7 +5,7 @@ Module sync configurations for Vision-IT Modules
 ## How to use it
 
 ```bash
-git clone https://github.com/vision-it/modulesync_config.git
+git clone https://github.com/vision-it/modulesync_configs.git
 cd modulesync_config
 bundle install --path=.bundle
 bundle exec msync update --help
