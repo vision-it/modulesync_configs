@@ -6,7 +6,7 @@ defaults:
 
 hierarchy:
   - name: "OS"
-    path: "os/%{facts.os.release.major}.yaml"
+    path: "os/%{facts.os.lsb.distcodename}.yaml"
 
   - name: "common"
     path: "common.yaml"
