@@ -24,6 +24,7 @@ group :acceptance do
   gem 'beaker', '4.6.0'
   gem 'beaker-docker', '0.5.2'
   gem 'beaker-rspec', '6.2.4'
+  gem "beaker-puppet_install_helper", :require => false
   gem 'serverspec', '2.41.3'
   gem 'specinfra', '2.76.9'
 end
