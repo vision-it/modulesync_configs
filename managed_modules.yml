@@ -1,5 +1,4 @@
 ---
-- vision-apt
 - vision-aptutil
 - vision-aptly
 - vision-bareos
@@ -11,7 +10,6 @@
 - vision-freeipa
 - vision-gluster
 - vision-gitlab
-- vision-gogs
 - vision-groups
 - vision-icinga2
 - vision-intranet
@@ -29,7 +27,6 @@
 - vision-ntp
 - vision-packer
 - vision-php
-- vision-phpmyadmin
 - vision-piwik
 - vision-pki
 - vision-puppet
