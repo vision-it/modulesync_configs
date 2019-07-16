@@ -47,3 +47,5 @@
 - vision-roles
 - vision-ha
 - vision-traefik
+- vision-keepalived
+- vision-minio
