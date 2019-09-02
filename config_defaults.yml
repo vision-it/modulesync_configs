@@ -46,3 +46,6 @@ Rakefile:
 
 .travis.yml:
   delete: false
+
+buster_fix.sh:
+  delete: false
