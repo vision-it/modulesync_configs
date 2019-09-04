@@ -29,6 +29,9 @@ CONTRIBUTING.md:
 Gemfile:
   delete: false
 
+Gemfile.lock:
+  delete: false
+
 .gitignore:
   delete: false
 
