@@ -1,5 +1,6 @@
 ---
 - vision-base
+- vision-exim
 - vision-gluster
 - vision-hashicorp
 - vision-keepalived
