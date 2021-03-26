@@ -1,6 +1,8 @@
-# ModuleSync Configs
+# ModuleSync Config
 
-Module sync configurations for Vision-IT Modules
+ModuleSync is used to synchronize common files across your git repositories.
+
+https://github.com/voxpupuli/modulesync
 
 ## How to use it
 

@@ -3,7 +3,6 @@
 - vision-exim
 - vision-gluster
 - vision-hashicorp
-- vision-keepalived
 - vision-loki
 - vision-mysql
 - vision-prometheus
